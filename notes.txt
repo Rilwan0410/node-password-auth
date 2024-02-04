@@ -1,0 +1,9 @@
+bcrypt - allows you to hash passwords so that the actual password cannot be seen in the database.
+
+passportJS - 
+
+passport local - allows you to use local variables for logging and for authenication (npm i passport-local)
+
+express session - used to store and persist you user information across different pages. (npm i express-session)
+
+express flash - used to display messages if fail to login ( used in conjuction with passport) (npm i express-flash)

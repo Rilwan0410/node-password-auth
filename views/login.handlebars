@@ -1,0 +1,16 @@
+<h1>Log In</h1>
+<form action="/login" method="POST">
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" name="username"  />
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" name="password" />
+  </div>
+  {{#if messages.error}}
+  <p>{{messages.error}}</p>
+  {{/if}}
+<span>Don't have an account?</span><a href="/signup">Sign Up</a>
+  <button style="display:block; margin-top:10px;" type="submit">Submit</button>
+</form>
